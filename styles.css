@@ -290,3 +290,28 @@ justify-content: center;
 width: 25%;
 height: 390px;
 }
+
+/* portfolio section style */
+.portfolio{
+    width: 70%;
+    height: 1160px;
+    margin: 50px auto;
+}
+.portfolio .portfolio-text{
+    height: 170px;
+    margin: 50px 0;
+    text-align: left;
+}
+.portfolio .portfolio-text h4{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+padding-top: 20px;
+margin: 5px 0;
+}
+.portfolio .portfolio-text h2{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+margin: 10px 0;
+}
