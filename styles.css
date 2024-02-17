@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-body  p{
+
+body p {
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 400;
 }
+
 .banner {
     text-align: center;
     align-items: center;
@@ -192,7 +194,7 @@ letter-spacing: 0%; */
 .coming-soon-left {
     width: 25%;
     padding-top: 20px;
-   
+
 }
 
 .coming-soon .coming-soon-left h2 {
@@ -208,7 +210,8 @@ letter-spacing: 0%; */
     font-weight: 900;
     margin: 10px 0;
 }
-.coming-soon  p{
+
+.coming-soon p {
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 400;
@@ -233,20 +236,22 @@ letter-spacing: 0%; */
     object-fit: cover;
     margin: auto;
 }
-#red{
+
+#red {
     color: red;
 }
+
 /* Holiday sale section */
-.holiday-sale{
+.holiday-sale {
     width: 58%;
     height: 260px;
     margin: 50px auto;
-   text-align: center;
- 
-    
+    text-align: center;
+
+
 }
 
-.holiday-sale h4{
+.holiday-sale h4 {
     color: rgb(7, 2, 17);
     font-size: 20px;
     font-weight: 400;
@@ -254,64 +259,138 @@ letter-spacing: 0%; */
     margin: 5px;
 
 }
-.holiday-sale h1{
+
+.holiday-sale h1 {
     font-size: 75px;
     font-weight: 800;
     margin: 10px;
 }
-.holiday-sale h1 span{
+
+.holiday-sale h1 span {
     color: red;
 }
+
 /* 50%discont section */
-.fifty-percent-discount{
+.fifty-percent-discount {
     width: 70%;
     height: 620px;
     margin: 50px auto;
     background-image: url("./resources/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
-    
+
 }
-.fifty-percent-discount-images{
-display: flex;
+
+.fifty-percent-discount-images {
+    display: flex;
 }
-.fifty-percent-discount-images .img1{
-width: 55%;
-height: 31%;
+
+.fifty-percent-discount-images .img1 {
+    width: 55%;
+    height: 31%;
 }
-.fifty-percent-discount-images .img2{
-width: 20%;
-height: 20%;
-padding-top: 5%;
-align-items: center;
-justify-content: center;
+
+.fifty-percent-discount-images .img2 {
+    width: 20%;
+    height: 20%;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
 }
-.fifty-percent-discount-images .img3{
-width: 25%;
-height: 390px;
+
+.fifty-percent-discount-images .img3 {
+    width: 25%;
+    height: 390px;
 }
 
 /* portfolio section style */
-.portfolio{
+.portfolio {
     width: 70%;
     height: 1160px;
     margin: 50px auto;
 }
-.portfolio .portfolio-text{
+
+.portfolio .portfolio-text {
     height: 170px;
     margin: 50px 0;
     text-align: left;
 }
-.portfolio .portfolio-text h4{
+
+.portfolio .portfolio-text h4 {
     color: rgb(255, 0, 0);
-font-size: 24px;
-font-weight: 500;
-padding-top: 20px;
-margin: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin: 5px 0;
 }
-.portfolio .portfolio-text h2{
+
+.portfolio .portfolio-text h2 {
     color: rgb(7, 2, 17);
-font-size: 48px;
-font-weight: 900;
-margin: 10px 0;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+/* subscribe section style */
+.subscribe-container {
+    width: 70%;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-container .email-img {
+    width: 8%;
+    height: 8%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.subscribe-container .subscribe-text {
+    width: 47%;
+    height: 146px;
+    margin: 30px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.subscribe-container .subscribe-text {
+    color: rgb(7, 2, 17);
+
+    font-size: 20px;
+    font-weight: 800;
+
+    /* text-align: center; */
+
+}
+
+.subscribe {
+    width: 35%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#email {
+    width: 70%;
+    height: 60px;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#email-btn {
+    width: 30%;
+    height: 60px;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
 }
