@@ -7,7 +7,7 @@
     background-image: url("./resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: auto;
-    width: 75%;
+    width: 70%;
     height: 600px;
     margin: auto;
 }
@@ -84,9 +84,10 @@ letter-spacing: 0%; */
     background-image: url("./resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: auto;
-    width: 75%;
+    width: 70%;
     height: 600px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .banner2 .banner2-content {
@@ -121,15 +122,53 @@ letter-spacing: 0%; */
 
 .banner2 .banner2-content .banner2-text button {
     border-radius: 16px;
- color: whitesmoke;
- font-size: large;
- font-weight: 400;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 400;
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     border: none;
 }
-.banner2 .banner2-content .banner2-img{
-width: 20%;
-align-items: center;
-padding-top: 60px;
 
+.banner2 .banner2-content .banner2-img {
+    width: 20%;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+/* faded section style */
+.faded-section {
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    width: 70%;
+    height: 480px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.faded-section .faded-section-text h2 {
+
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-align: center;
+}
+
+#faded-section-btn {
+    border-radius: 8px;
+    border: none;
+    color: aliceblue;
+    width: 167px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(255, 0, 0);
+}
+.orangered{
+    color: orangered;
 }
