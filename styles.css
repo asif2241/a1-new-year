@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body p {
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 400;
+
 }
 
 .banner {
@@ -37,7 +41,7 @@ body p {
 .discount {
     width: 35%;
     height: 27vh;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     /* gap: 40px; */
 }
@@ -53,12 +57,13 @@ letter-spacing: 0%; */
 
 .discount .discount-text {
     margin-top: 90px;
-    line-height: 2px;
+    color: rgb(31, 20, 53);
+    /* line-height: 2px; */
 }
 
 .discount .discount-text p {
     color: rgb(7, 2, 17);
-    font-family: Inter;
+
     font-size: 24px;
     font-weight: 500;
     text-align: center;
@@ -393,4 +398,40 @@ letter-spacing: 0%; */
     font-size: 20px;
     border-radius: 0px 50px 50px 0px;
     background: rgb(255, 0, 0);
+}
+
+/* footer style */
+.footer{
+    width: 100%;
+    height: 600px;
+    background: rgb(7, 2, 17);
+    padding-top: 120px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-text{
+    width: 62%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-hr{
+    width: 70%;
+    margin: 50px auto;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+.footer-images{
+    width: 70%;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
