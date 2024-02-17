@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+body  p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
 .banner {
     text-align: center;
     align-items: center;
@@ -169,6 +173,120 @@ letter-spacing: 0%; */
     font-weight: 700;
     background: rgb(255, 0, 0);
 }
-.orangered{
+
+.orangered {
     color: orangered;
+}
+
+/* comin soon style */
+.coming-soon {
+
+    width: 70%;
+    margin: 50px auto;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coming-soon-left {
+    width: 25%;
+    padding-top: 20px;
+   
+}
+
+.coming-soon .coming-soon-left h2 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.coming-soon h1 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.coming-soon  p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.coming-soon-img {
+    width: 25%;
+
+}
+
+.coming-soon-right {
+    width: 25%;
+}
+
+.coming-soon-img img {
+    height: 95%;
+    width: 95%;
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: cover;
+    margin: auto;
+}
+#red{
+    color: red;
+}
+/* Holiday sale section */
+.holiday-sale{
+    width: 58%;
+    height: 260px;
+    margin: 50px auto;
+   text-align: center;
+ 
+    
+}
+
+.holiday-sale h4{
+    color: rgb(7, 2, 17);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin: 5px;
+
+}
+.holiday-sale h1{
+    font-size: 75px;
+    font-weight: 800;
+    margin: 10px;
+}
+.holiday-sale h1 span{
+    color: red;
+}
+/* 50%discont section */
+.fifty-percent-discount{
+    width: 70%;
+    height: 620px;
+    margin: 50px auto;
+    background-image: url("./resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.fifty-percent-discount-images{
+display: flex;
+}
+.fifty-percent-discount-images .img1{
+width: 55%;
+height: 31%;
+}
+.fifty-percent-discount-images .img2{
+width: 20%;
+height: 20%;
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+}
+.fifty-percent-discount-images .img3{
+width: 25%;
+height: 390px;
 }
